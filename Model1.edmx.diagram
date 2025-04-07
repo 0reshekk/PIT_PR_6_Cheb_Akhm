@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e8c53fde80724756af99781ca1260577" Name="Diagram1">
+        <EntityTypeShape EntityType="FinanceeeModel.Accounts" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Cash" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Deposits" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Expense_Categories" Width="1.5" PointX="6" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Expenses" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Income_Categories" Width="1.5" PointX="6" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Incomes" Width="1.5" PointX="8.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Roles" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Transaction_History" Width="1.5" PointX="5.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinanceeeModel.Users" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="FinanceeeModel.FK__Accounts__UserID__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Accounts__UserID__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Cash__UserID__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Cash__UserID__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Deposits__UserID__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Deposits__UserID__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Expenses__Catego__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Expenses__Catego__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Expenses__UserID__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Expenses__UserID__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Incomes__Categor__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Incomes__Categor__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Incomes__UserID__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Incomes__UserID__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Users__RoleID__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Users__RoleID__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Transacti__UserI__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="FinanceeeModel.FK__Transacti__UserI__6E01572D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
